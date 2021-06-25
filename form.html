@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+</head>
+<body>
+    <div>
+        <h1> Cadstro de Devs</h1>
+<p> Complete Suas Informaçôes</p>  
+<br>      
+    </div>
+    <Form>
+        <Fieldset>
+            <Div>
+                <Label> Nome </Label>
+                <Input type="text" name="nome" id="nome"></Input>
+            </Div>
+            <Div>
+                <Label>Sobrenome</Label>
+                <Input type="text" name="sobrenome" id="sobrenome"></Input>
+
+            </Div>
+            <Div>
+                <Label>Email</Label>
+                <Input type="email" name="email" id="email"></Input>
+            </Div>
+        </Fieldset>
+        <Div>
+            <Label>De qual lado da aplicação voce desenvolve</Label>
+            <Label>
+                <Input Type= "radio" nome ="devweb"value = "front-end" checked > Front-end 
+            </Label>
+            <Label> 
+                <Input  type="radio" nome = "devweb" value="back-end"> Back-end 
+            </Label>
+            <Label>
+                <input type="radio" nome="devweb" value="full-stack">Full-Stack
+            </Label>
+        </Div>
+
+<Div>
+    <Label> Senioridade</Label>
+    <Select id="Senioridade">
+        <Option selected disabled value="">Selecione</Option>
+        <Option>Junio</Option>
+        <Option>Pleno</Option>
+        <Option>Senior</Option>
+
+
+    </Select>
+</Div>
+<Fieldset>
+    <Div>
+     <Label> Selecione as tecnologias que utiliza:</Label><br><br>
+        <Input type ="checkbox" id = "tecnologia1" nome="tecnologia1" value="Html">
+        <label for="tecnologia1"> HTML </Label>
+        <Input type ="checkbox" id = " tecnologia2" nome="tecnologia2" value="Css">
+        <label for="tecnologia2" > Css </Label>
+        <Input type ="checkbox" id = " tecnologia3" nome="tecnologia3" value="Javascript">
+        <label for="tecnologia3" > Javascript </Label>
+        <Input type ="checkbox" id = " tecnologia4" nome="tecnologia4" value="Php">
+        <label for="tecnologia4" > Php </Label>
+        <Input type ="checkbox" id = " tecnologias5" nome="tecnologia5" value="C#">
+        <label for="tecnologia5" > C# </Label>
+        <Input type ="checkbox" id = " tecnologias6" nome="tecnologia6" value="Python">
+        <label for="tecnologia6" > Python </Label>
+        <Input type ="checkbox" id = " tecnologias7" nome="tecnologia7" value="Java">
+        <label for="tecnologia7" > Java </Label>
+  </Div>
+</Fieldset>
+<Div>  
+    <br>
+    <label>Conte um pouco da sua experiência</label>
+    <textarea row="6" style="width: 26pm;" id="experiência" name="experiência"></textarea>
+</Div>
+<button type="submit"> Concluido</button>
+
+    </Form>  
+</body>
+</html>
